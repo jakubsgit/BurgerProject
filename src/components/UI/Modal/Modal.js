@@ -9,10 +9,6 @@ import Backdrop from '../Backdrop/Backdrop';
         return nextProps.show !== this.props.show;
     }
 
-    componentDidUpdate () {
-        console.log('[Modal] DidUpdate')
-    }
-
 
     render() {
         return (
