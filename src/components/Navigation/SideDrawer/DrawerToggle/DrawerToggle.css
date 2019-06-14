@@ -1,0 +1,11 @@
+.MobileLogo {
+    height: 35px;
+    width: 35px;
+    color: white;
+}
+
+@media (min-width: 500px) {
+    .MobileLogo {
+        display: none;
+    }
+}
