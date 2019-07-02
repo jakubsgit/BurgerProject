@@ -26,7 +26,7 @@ class Checkout extends Component {
 
     }
 
-    checkoutCancalledHandler = () => {
+    checkoutCancelledHandler = () => {
         this.props.history.goBack();
     }
     
